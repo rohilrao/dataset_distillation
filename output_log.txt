@@ -1,0 +1,17 @@
+Epoch 1/10:   0%|          | 0/1500 [00:00<?, ?batch/s]Epoch 1/10:   0%|          | 0/1500 [00:26<?, ?batch/s]
+--- Logging error ---
+Traceback (most recent call last):
+  File "/home/IAIS/rrao/anaconda3/envs/dataset_distill/lib/python3.9/logging/__init__.py", line 1087, in emit
+    self.flush()
+  File "/home/IAIS/rrao/anaconda3/envs/dataset_distill/lib/python3.9/logging/__init__.py", line 1067, in flush
+    self.stream.flush()
+OSError: [Errno 5] Input/output error
+Call stack:
+  File "/home/IAIS/rrao/anaconda3/envs/dataset_distill/lib/python3.9/threading.py", line 937, in _bootstrap
+    self._bootstrap_inner()
+  File "/home/IAIS/rrao/anaconda3/envs/dataset_distill/lib/python3.9/threading.py", line 980, in _bootstrap_inner
+    self.run()
+  File "/home/IAIS/rrao/.local/lib/python3.9/site-packages/ipykernel/parentpoller.py", line 38, in run
+    get_logger().warning("Parent appears to have exited, shutting down.")
+Message: 'Parent appears to have exited, shutting down.'
+Arguments: ()
